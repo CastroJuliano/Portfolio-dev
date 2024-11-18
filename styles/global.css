@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-: root {
+:root {
     --main-color-red: #E3646E;
     --main-color-purple: #BB72E9;
     --main-color-blue: #3996DB;
@@ -19,15 +19,73 @@
     --base-color-gray-600: #E2E4E9;
     
     --font-title: "Asap", sans-serif;
-    --h1: 800 56px/120% var(--font-title);
-    --h2: 800 24px/120% var(--font-title);
-    --h3: 800 16px/120% var(--font-title);
+    --title-lg: 800 56px/120% var(--font-title);
+    --title-md: 800 24px/120% var(--font-title);
+    --title-sm: 800 16px/120% var(--font-title);
 
     --font-text: "Inconsolata", monospace;
     --subtitle: 400 20px/120% var(--font-text);
 
     --font-sm: "Maven Pro", sans-serif;
     --text-md: 400 16px/140% var(--font-sm);
-    --text-sm: 400 14px/140% var(--font-sm);
+    --text-sm: 400 14px/140% var(--font-sm);   
+}
 
+body {
+    font: var(--subtitle);
+    color: var(--base-color-gray-500);
+
+    background-image: url(../assets/images/Background_Intro.png);
+    object-fit: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+     font:   var(--title-lg);
+    color: var(--base-color-gray-600);
+}
+
+p {
+    font: var(--text-sm);
+    color: var(--base-color-gray-400);
+}
+
+.container {
+    width: 1366px;
+    padding-top: 120px;
+    padding-inline: 163px;
+    margin-inline: auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+}
+
+.grid-cols-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.btn {
+    text-decoration: none;
+    font: var(--text-md);
+    color: var(--base-color-gray-500);
+    border-radius: 50px;
+    background-color: var(--base-color-gray-300);
+    padding: 0;
+}
+
+.btn img{
+    position: relative;
+    width: 20px;
+    margin-inline: auto;
+    margin-block: -4px;
 }
