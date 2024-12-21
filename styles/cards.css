@@ -1,0 +1,35 @@
+#cards {
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    /* padding-bottom: 8rem; */
+    
+    & .card {
+        width: 330px;
+        height: 280px;
+        background: var(--base-color-gray-300);
+        border-radius: 1.5rem;
+    }
+    
+    & img {
+        width: 19.125rem;
+        height: 9.75rem;
+        position: absolute;
+        border-radius: 8px;
+        margin: 0.75rem;
+    }
+    
+    
+    
+    & h3 {
+        position: absolute;
+        margin: 192px 0.75rem;
+    }
+
+    & p {
+        position: relative;
+        margin: 219px 1rem; 
+    }
+    
+}

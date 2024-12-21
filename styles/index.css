@@ -1,2 +1,7 @@
 @import url(global.css);
-@import url(header.css);
+@import url(utility.css);
+@import url(main.css);
+@import url(projects.css);
+@import url(cards.css);
+@import url(services.css);
+@import url(servCard.css);

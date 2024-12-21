@@ -1,0 +1,21 @@
+#projects {
+    background-color: var(--base-color-gray-200);
+    padding-bottom: 9rem;
+    /* border: 1px solid blue; */
+    /* background-size:auto; */
+    
+    & header {
+        
+        & strong {
+            margin-inline: auto;
+            padding-bottom: 0.5rem;
+        }
+        
+        & h2 {
+            margin-inline: auto;
+            margin-bottom: 3.5rem;
+        }
+    }
+
+
+}
