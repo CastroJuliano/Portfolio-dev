@@ -10,6 +10,10 @@
         height: 280px;
         background: var(--base-color-gray-300);
         border-radius: 1.5rem;
+
+        &:hover, &:focus {
+            border: 1px solid var(--base-color-gray-500);
+        }
     }
     
     & img {
@@ -19,8 +23,6 @@
         border-radius: 8px;
         margin: 0.75rem;
     }
-    
-    
     
     & h3 {
         position: absolute;
