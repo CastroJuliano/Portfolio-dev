@@ -1,55 +1,78 @@
 #main {
+    display: flex;
     background-image: url(../assets/images/Background_Intro.png);
     object-fit: cover;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 #intro {
-    /* border: 1px solid red; */
+    & div:nth-child(1) {
+        display: flex;
+        position: relative;
+        width: 112px;
+        height: 112px;
+        margin-bottom: 20px;
+        
+        & img:nth-child(1) {
+            position: absolute;
+            width: 87.27px;
+            height: 87.27px;
+            margin: 12px;
 
-}
+            z-index: 0;
+        }
+    
+        & img:nth-child(2) {
+            position: absolute;
+            width: 112px;
+            height: 112px;
+            margin: 0;
+            
+            z-index: 1;
+        }
 
-#intro div:nth-child(1) {
-    margin-inline: auto;
-    padding-bottom: 56px;
+    }
 
-    /* border: 1px solid blue; */
-}
 
-#intro div:nth-child(2) {
-    margin-inline: auto;
-    padding-bottom: 8px;
-    /* border: 1px solid green; */
-}
-
-#intro div:nth-child(3) {
-    margin-inline: auto;
-    padding-bottom: 20px;
-    /* border: 1px solid red; */
-}
-
-#intro div:nth-child(4) {
-    margin-inline: auto;
-    padding-bottom: 80px;
-    /* border: 1px solid blueviolet; */
+    & div:nth-child(1) {
+        margin-inline: auto;
+        padding-bottom: 56px;
+    }
+        
+    & div:nth-child(2) {
+        margin-inline: auto;
+        padding-bottom: 8px;
+    }
+        
+    & div:nth-child(3) {
+        margin-inline: auto;
+        padding-bottom: 20px;
+    }
+        
+    & div:nth-child(4) {
+        margin-inline: auto;
+        padding-bottom: 80px;
+    }
 }
 
 #tag {
     justify-content: center;
+    padding-bottom: 94px;
     gap: 16px;
 
+    & a {
+        padding: 12px;
+    }
 }
-
-#tag a {
-    padding: 12px;
-}
-
+               
+    
 #vector div {
     margin-inline: auto;
-}
 
-#vector div img {
-    position: absolute;
-    bottom: 60.5px;
+    
+    & svg {
+        
+    }
 }

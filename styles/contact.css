@@ -1,8 +1,9 @@
 #contact {
     background-image: url(../assets/images/Background_Contacts.png);
     object-fit: cover;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    
 
     & header {
         
@@ -48,9 +49,7 @@
     }
 
     
-    & img:nth-child(2) {
-        width: 11px;
-        height: 11px;
+    & svg:nth-child(2) {
         margin-inline: auto;
         margin-inline-end: 5%;
         margin-top: 5px;

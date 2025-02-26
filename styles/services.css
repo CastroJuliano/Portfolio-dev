@@ -3,6 +3,7 @@
     height: 480px;
     background-color: var(--base-color-gray-100);
     padding-block: 5.5rem;
+    
 
     & header {
         

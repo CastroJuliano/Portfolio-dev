@@ -33,9 +33,16 @@
 
 .container {
     width: 1366px;
-    height: 750px;
+    /* height: 750px; */
     padding-top: 120px;
-    padding-inline: 163px;
+    /* padding-inline: 163px; */
+    margin-inline: auto;
+}
+
+.container-contacts {
+    width: 750px;
+    /* height: 550px; */
+    padding: 5.5rem;
     margin-inline: auto;
 }
 

@@ -2,6 +2,8 @@
     overflow: hidden;
     position: relative;
     justify-content: center;
+
+    margin-left: 50px;
     
     & .serv-card {
         width: 280px;
@@ -9,8 +11,6 @@
         background-color: var(--base-color-gray-200);
         border: 2px solid var(--base-color-gray-300);
         border-radius: 1.5rem;
-        
-        /* opacity: 0.2; */
 
         & img {
         position: absolute;
@@ -32,7 +32,6 @@
             }
         }
     }
-    
 }
 
 

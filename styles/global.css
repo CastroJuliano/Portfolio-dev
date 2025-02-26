@@ -30,17 +30,15 @@
     --text-md: 400 16px/140% var(--font-sm);
     --text-sm: 400 14px/140% var(--font-sm);  
     
-    --py-base: 1rem;
-    --py-lg: 1.5rem;
-    --py-xl: 3rem;
-
-    --px-lg: 1.5rem;
 }
 
 body {
     font: var(--subtitle);
     color: var(--base-color-gray-500);
-    
+
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
 }
 
 h1 {
