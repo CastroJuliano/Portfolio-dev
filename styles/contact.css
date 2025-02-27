@@ -29,15 +29,16 @@
 
     & footer {
         display: flex;
-        justify-content: center ;
-        padding: 24px;
+        position: relative;
+        bottom: 24px;
+        justify-content: center;
     }
 
 }
 
 #socialButtons {
     justify-content: center;
-
+    
     & a {
         display: flex;
         width: 400px;
